@@ -18,11 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<你的用户名>/dsh-ui-style-lock.git"
+    "url": "git+https://github.com/zhefan-0/dsh-ui-style-lock.git"
   },
-  "homepage": "https://github.com/<你的用户名>/dsh-ui-style-lock#readme",
+  "homepage": "https://github.com/zhefan-0/dsh-ui-style-lock#readme",
   "bugs": {
-    "url": "https://github.com/<你的用户名>/dsh-ui-style-lock/issues"
+    "url": "https://github.com/zhefan-0/dsh-ui-style-lock/issues"
   },
   "exports": {
     ".": "./index.js",
