@@ -8,13 +8,13 @@
  * 经典脚本：没有 import/export，React 由模块表提供。
  */
 window.__ModuleLoader__.load({
-  id: '@local/ui-style-lock',
+  id: 'dsh-ui-style-lock',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
     const { useEffect, useState } = React;
 
-    const PACKAGE = '@local/ui-style-lock';
+    const PACKAGE = 'dsh-ui-style-lock';
     /** 图鉴面板 id，同时是 main 槽的 key。 */
     const PANEL_ID = 'styleLab';
     /** 示例面板 id。 */

@@ -1,7 +1,6 @@
 {
-  "name": "@local/ui-style-lock",
+  "name": "dsh-ui-style-lock",
   "version": "2.0.0",
-  "private": true,
   "type": "module",
   "description": "视觉风格锁：10 种可切换的页面风格（极简、玻璃、Bento、大字、滚动叙事、手作、暗奢、动效、复古像素、新粗野），用提示段 + 契约工具 + 自动校验强约束生成结果。",
   "license": "MIT",
@@ -40,6 +39,7 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
+    "README.en.md",
     "LICENSE"
   ],
   "dsh": {

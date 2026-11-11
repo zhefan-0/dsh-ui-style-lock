@@ -1,3 +1,5 @@
+<p align="center"><a href="README.md">中文</a> · <a href="README.en.md">English</a></p>
+
 # 视觉风格锁 · DSH 插件
 
 给 DeepSeek Harness 的页面生成加一把「风格锁」：选一种视觉语言，之后所有会话生成的页面都被硬性约束在这套风格里，并在交付前被自动校验。
@@ -13,18 +15,18 @@
 <table>
 <tr>
 <td width="50%">
-<img src="docs/retro-pixel-console.png" alt="复古像素 / Y2K 风格的中控台">
+<img src="https://raw.githubusercontent.com/zhefan-0/dsh-ui-style-lock/main/docs/retro-pixel-console.png" alt="复古像素 / Y2K 风格的中控台">
 <br><sub><b>09 复古像素 / Y2K</b> — 暗紫 CRT 底、荧光粉/青、圆角 0、硬阴影 0 模糊</sub>
 </td>
 <td width="50%">
-<img src="docs/craft-console.jpg" alt="手作过程感风格的中控台">
+<img src="https://raw.githubusercontent.com/zhefan-0/dsh-ui-style-lock/main/docs/craft-console.jpg" alt="手作过程感风格的中控台">
 <br><sub><b>06 手作过程感</b> — 纸感底色、铅笔线稿、胶带拼贴、印章批注</sub>
 </td>
 </tr>
 </table>
 
 <p align="center">
-<img src="docs/craft-console-mobile.jpg" width="300" alt="手作感风格的移动端排版">
+<img src="https://raw.githubusercontent.com/zhefan-0/dsh-ui-style-lock/main/docs/craft-console-mobile.jpg" width="300" alt="手作感风格的移动端排版">
 <br><sub>同一套风格在窄屏下自动重排（06 手作过程感 · 移动端）</sub>
 </p>
 
@@ -70,7 +72,7 @@
 ```yaml
 - insert:
     - id: ui-style-lock
-      name: '@local/ui-style-lock'
+      name: 'dsh-ui-style-lock'
 ```
 
 安装后建议刷新一次页面，客户端面板才会加载。
@@ -130,7 +132,7 @@
 侧栏的**像素示例**面板是插件自带的一张中控台页面，用来对照 review 规则实际长什么样：
 
 <p align="center">
-<img src="docs/fresh-pixel-console.png" width="720" alt="插件内置的像素示例页">
+<img src="https://raw.githubusercontent.com/zhefan-0/dsh-ui-style-lock/main/docs/fresh-pixel-console.png" width="720" alt="插件内置的像素示例页">
 </p>
 
 ## 目录结构
