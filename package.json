@@ -1,0 +1,52 @@
+{
+  "name": "@local/ui-style-lock",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "视觉风格锁：10 种可切换的页面风格（极简、玻璃、Bento、大字、滚动叙事、手作、暗奢、动效、复古像素、新粗野），用提示段 + 契约工具 + 自动校验强约束生成结果。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "design-system",
+    "visual-style",
+    "style-guide",
+    "ui",
+    "pixel-art",
+    "glassmorphism",
+    "brutalism"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<你的用户名>/dsh-ui-style-lock.git"
+  },
+  "homepage": "https://github.com/<你的用户名>/dsh-ui-style-lock#readme",
+  "bugs": {
+    "url": "https://github.com/<你的用户名>/dsh-ui-style-lock/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "presets.js",
+    "engine.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

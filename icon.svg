@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="crispEdges" role="img" aria-label="Style Lab">
+  <rect width="64" height="64" fill="#FBF6E9"/>
+  <rect x="6" y="10" width="52" height="38" fill="#2E3B45"/>
+  <rect x="10" y="14" width="44" height="30" fill="#FFFDF6"/>
+  <rect x="14" y="30" width="7" height="10" fill="#B7E9C8"/>
+  <rect x="14" y="26" width="7" height="3" fill="#B7E9C8"/>
+  <rect x="24" y="22" width="7" height="18" fill="#C3E4F6"/>
+  <rect x="34" y="26" width="7" height="14" fill="#FFE29A"/>
+  <rect x="44" y="18" width="7" height="22" fill="#FFB3A6"/>
+  <rect x="14" y="18" width="37" height="3" fill="#E9E2CE"/>
+  <rect x="27" y="48" width="10" height="3" fill="#2E3B45"/>
+  <rect x="20" y="51" width="24" height="3" fill="#2E3B45"/>
+  <rect x="46" y="51" width="8" height="3" fill="#B7E9C8"/>
+</svg>

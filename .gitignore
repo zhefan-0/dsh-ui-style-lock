@@ -1,0 +1,11 @@
+# 依赖与构建产物
+node_modules/
+*.log
+
+# 运行时状态（当前风格），每个安装各不相同
+.state.json
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
